@@ -32,4 +32,6 @@ int main(void) {
     year = (now_struct->tm_year + 1900 - z2);
 
     printf("Είσαι %d χρονών, %d μηνών και %d ημερών \n", year, month, day);
+
+    return 0;
 }
