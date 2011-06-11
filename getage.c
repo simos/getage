@@ -3,11 +3,9 @@
 #include <string.h>
 #include <time.h>
 
-int x, y, z, x2, y2, z2, day, month, year;
-
-
 int main(void) {
 
+    int x, y, z, x2, y2, z2, day, month, year;
     time_t now;
     struct tm* now_struct;
 
