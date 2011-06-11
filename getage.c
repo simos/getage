@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-#include <time.h>
+#include <stdio.h>  /* for printf(), scanf() */
+#include <math.h>   /* currently unused */
+#include <string.h> /* currently unused */
+#include <time.h>   /* for time(), gmtime() */
 
 int main(void) {
 
