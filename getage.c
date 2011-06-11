@@ -25,8 +25,6 @@ int main(void) {
     printf("Ποια χρονιά γεννηθηκες: ");
     scanf("%d", &z2);
 
-
-
     day = (now_struct->tm_mday - x2);
     month = (now_struct->tm_mon - y2);
     year = (now_struct->tm_year + 1900 - z2);
